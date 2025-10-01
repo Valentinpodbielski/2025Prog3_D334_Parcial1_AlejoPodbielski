@@ -1,0 +1,102 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.card-producto{
+    border: 2px solid rgb(204, 200, 200);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+.card-producto button{
+    color: white;
+    background-color: rgb(68, 192, 78);
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+}
+
+.bloque-item {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            /* centra verticalmente */
+
+}
+.bloque-item button{
+    margin-left: 40px;
+    margin-bottom: 5px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    padding: 9px;
+
+}
+
+.bloque-item p{
+    margin: 5px;
+}
+
+#contenedor-productos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 252, 246);
+}
+
+header{
+    display: flex;
+    align-items: center;     /* Centrado vertical */
+    justify-content: space-between; /*Alinia los elementos de forma horizontal dejando un mismo espacio entre ellos*/
+    background-color: rgb(68, 192, 78);
+    padding: 10px;
+}
+
+header p{
+    color: white;
+}
+
+header h2{
+    color: aliceblue;
+}
+label{
+    color: aliceblue;
+    padding: 10px;
+}
+
+img{
+    width: 200px;
+    height: 100px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#vaciar-carrito{
+    background-color: red;
+    color: wheat;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+
+}
